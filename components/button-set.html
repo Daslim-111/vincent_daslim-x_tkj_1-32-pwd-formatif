@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: azure;
+            text-align: left;
+            padding: 40px;
+        }
+
+        h2{
+            font-size: 20px;
+            color: grey;
+        }
+
+        .tombol{
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .tombol-primary{
+            background-color: blue;
+            color: white;
+            border: 2px solid;
+        }
+
+        .tombol-secondary{
+            background-color: whitesmoke;
+            border: 2px solid;
+        }
+
+        .tombol-outline{
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        .tombol-send{
+            background-color: rgb(40, 160, 100);
+            color: white;
+            border: 2px solid;
+        }
+        .tombol-secondary.tombol-outline{
+            color: black;
+        }
+
+        .tombol-primary:hover{
+            background-color: navy;
+        }
+
+        .tombol-secondary:hover{
+            background-color: gray;
+        }
+
+        .tombol-outline:hover{
+            background-color: rgba(0, 0, 0, 1);
+        }
+
+        .tombol-send:hover{
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>
+            halaman utama/menu:
+        </h2>
+        <div class="tombol">
+            <a href="/pages/galery.html" class="tombol-primary">lihat proyek</a>
+            <a href="/assets/fonts/" class="tombol-secondary">unduh CV</a>
+            <a href="/pages/contact.html" class="tombol-outline">hubungi saya</a>
+            <a href="mailto:vincent.061@ski.sch.id" class="tombol-send">kirim pesan</a>
+        </div>
+        <footer>
+            <a href="http://127.0.0.1:5500/index.html">kembali keberanda</a>
+        </footer>
+    </main>
+</body>
+</html>
