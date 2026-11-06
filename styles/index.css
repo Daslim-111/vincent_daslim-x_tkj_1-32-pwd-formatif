@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+header {
+    text-align: center;
+    background-color: #263445;
+    color: white;
+    padding: 30px;
+}
+
+#components h2,
+#pages h2 {
+    color: #263445;
+    font-size: 24px;
+}
+
+main {
+    padding: 25px 40px;
+}
+
+main a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #e76f51;
+    text-decoration: underline;
+}
+
+main li {
+    margin-bottom: 12px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    background-color: #263445;
+    color: white;
+    padding: 15px;
+}

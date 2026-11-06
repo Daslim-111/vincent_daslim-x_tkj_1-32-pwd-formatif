@@ -45,7 +45,7 @@ body {
     text-decoration: none;
     border-radius: 8px;
     animation-name: slide-up;
-    animation-duration: 3s;
+    animation-duration: 2.4s;
 }
 
 .btn:hover {
