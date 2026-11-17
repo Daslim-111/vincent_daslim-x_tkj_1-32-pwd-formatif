@@ -1,9 +1,11 @@
+/* Index Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f6f9;
 }
 
+/* Header */
 header {
     text-align: center;
     background-color: #263445;
@@ -11,30 +13,36 @@ header {
     padding: 30px;
 }
 
+/* Section Titles */
 #components h2,
 #pages h2 {
     color: #263445;
     font-size: 24px;
 }
 
+/* Main Content */
 main {
     padding: 25px 40px;
 }
 
+/* Main Content Links */
 main a {
     color: #0077b6;
     text-decoration: none;
 }
 
+/* Main Content Links Hover */
 main a:hover {
     color: #e76f51;
     text-decoration: underline;
 }
 
+/* Main Content List Items */
 main li {
     margin-bottom: 12px;
 }
 
+/* Footer dan berada dibawah */
 footer {
     text-align: center;
     font-size: 13px;

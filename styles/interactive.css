@@ -1,3 +1,4 @@
+/* Interactive Styles */
 body {
     margin: 0;
     padding: 30px;
@@ -5,22 +6,26 @@ body {
     background-color: #f4f6f9;
 }
 
+/* Navigation Menu */
 .menu {
     display: flex;
     gap: 25px;
     margin-bottom: 40px;
 }
 
+/* Menu Links */
 .menu a {
     color: #263445;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
+/* Menu Links Hover */
 .menu a:hover {
     color: #007bff;
 }
 
+/* Button Styles */
 .btn {
     display: inline-block;
     padding: 12px 24px;
@@ -30,29 +35,35 @@ body {
     margin-right: 10px;
 }
 
+/* Button - Grow Effect */
 .btn-grow {
     background-color: #007bff;
     transition: transform 0.3s ease-out;
 }
 
+/* Button - Grow Effect Hover */
 .btn-grow:hover {
     transform: scale(1.05);
 }
 
+/* Button - Darken Effect */
 .btn-darken {
     background-color: #28a745;
     transition: background-color 0.4s linear;
 }
 
+/* Button - Darken Effect Hover */
 .btn-darken:hover {
     background-color: #145c2a;
 }
 
+/* Focus Styles for Links */
 a:focus {
     outline: 3px solid orange;
     outline-offset: 3px;
 }
 
+/* Footer dan berada dibawah */
 footer {
     margin-top: 50px;
     text-align: center;

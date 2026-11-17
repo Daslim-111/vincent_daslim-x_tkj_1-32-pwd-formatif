@@ -1,13 +1,16 @@
+/* Navbar Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f6f9;
 }
 
+/* Main Header */
 #main-header {
     background-color: #172554;
 }
 
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -15,12 +18,14 @@ body {
     padding: 15px 30px;
 }
 
+/* Logo */
 .logo {
     color: white;
     font-size: 22px;
     font-weight: bold;
 }
 
+/* Navigation Menu */
 .nav-menu {
     display: flex;
     gap: 24px;
@@ -28,16 +33,19 @@ body {
     padding: 0;
 }
 
+/* Navigation Menu Items */
 .nav-menu > li {
     list-style: none;
 }
 
+/* Navigation Menu Links */
 .nav-menu a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
 
+/* Navigation Menu Links Hover */
 .nav-menu a:hover {
     color: #38bdf8;
 }

@@ -1,10 +1,12 @@
 
+/* Hero Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f6f9;
 }
 
+/* Hero Section */
 #hero {
     height: 400px;
     background: linear-gradient(135deg, #162c46, #2878a8);
@@ -15,6 +17,7 @@ body {
     padding: 20px;
 }
 
+/* Hero Content */
 .hero-content {
     width: 640px;
     padding: 35px;
@@ -22,6 +25,7 @@ body {
     border-radius: 15px;
 }
 
+/* Hero Content Text */
 .hero-content h1,
 .hero-content p {
     animation-name: slide-up;
@@ -33,10 +37,12 @@ body {
     animation-fill-mode: backwards;
 }
 
+/* Hero Content Paragraph */
 .hero-content p {
     animation-delay: 0.6s;
 }
 
+/* Hero Button */
 .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -48,10 +54,12 @@ body {
     animation-duration: 2.4s;
 }
 
+/* Hero Button Hover */
 .btn:hover {
     background-color: #162c46;
 }
 
+/* Slide Up Animation */
 @keyframes slide-up {
     0% {
         transform: translateY(60px);
@@ -79,6 +87,7 @@ body {
     }
 }
 
+/* Footer dan berada dibawah */
 footer {
     text-align: center;
     padding: 20px;
