@@ -1,4 +1,5 @@
 
+/* gaya untuk halaman about */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap');
 
 body {
@@ -6,13 +7,15 @@ body {
     margin: 0;
 }
 
+/* background untuk halaman about */
 #about {
-    background-image: url("/assets/images/download.webp");
+    background-image: url("../assets/images/download.webp");
     background-size: cover;
     background-position: center;
     padding: 100px 200px;
 }
 
+/* kotak informasi tentang */
 .about-box {
     width: 620px;
     max-width: 100%;
@@ -23,23 +26,27 @@ body {
     box-sizing: border-box;
 }
 
+/* judul dalam kotak informasi */
 .about-box h2 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: black;
 }
 
+/* paragraf dalam kotak informasi */
 .about-box p {
     font-size: 16px;
     text-align: left;
     line-height: 1.8;
 }
 
+/* bagian penutup */
 .about-box .closing {
     text-align: right;
     font-style: italic;
 }
 
+/* bagian footer dan paling bawah */
 footer {
     text-align: center;
     padding: 20px;
